@@ -1,0 +1,17 @@
+name: BuilderBots
+version: 1.0.0
+main: botplugin.BotPlugin
+api-version: '26.3'
+description: Bis zu 5 Bots, die Bloecke abbauen/platzieren und Chunks geladen halten.
+commands:
+  bot:
+    description: BuilderBots steuern
+    usage: /bot help
+    permission: botplugin.use
+permissions:
+  botplugin.use:
+    description: Bots erstellen und steuern
+    default: true
+  botplugin.admin:
+    description: Auch geclaimte Bots anderer Spieler steuern
+    default: op
