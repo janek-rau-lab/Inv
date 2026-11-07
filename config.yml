@@ -1,0 +1,20 @@
+# Maximale Anzahl Bots (hart auf 5 begrenzt)
+max-bots: 5
+# Chunk-Radius um jeden Bot: 1 = 3x3 Chunks (max. 2 = 5x5)
+chunk-radius: 1
+# Reichweite des Bots in Bloecken (max. 8)
+reach: 5.0
+# Wie oft die Bot-Schleife laeuft (in Ticks, 2 = 10x pro Sekunde)
+tick-interval: 2
+# Pause zwischen zwei Platzierungen (Ticks)
+place-interval: 10
+# true = Bot macht weiter, bis /bot stop (z.B. Cobblestone-Generator)
+repeat: true
+# Abbau-Tempo: 1.0 = wie Vanilla
+mining-speed-multiplier: 1.0
+# Automatisches Speichern (Ticks, 6000 = 5 Minuten)
+autosave-ticks: 6000
+# Radius (Bloecke), in dem der Bot herumliegende Items aufhebt (0 = aus, max. 5)
+pickup-radius: 2.0
+# Bot legt aufgehobene/gegebene Ruestung automatisch an, wenn sie besser ist
+auto-equip: true
